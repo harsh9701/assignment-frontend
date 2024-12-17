@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend - Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="outer-div">
+            <div class="line-with-text">
+                <span class="text">YAY! It's BOGO</span>
+            </div>
+            <div class="option-div">
+                <div class="option" onclick="selectOption(this)">
+                    <div class="unit">
+                        <input type="radio" name="product" id="option1">
+                        <label for="option1" class="option1">
+                            <h3>1 Unit</h3>
+                            <span class="discount">10% Off</span>
+                        </label>
+                    </div>
+                    <div class="price">$10.00 USD <span class="original-price">$24.00 USD</span></div>
+                </div>
+                <div class="details">
+                    <table class="variant-table">
+                        <tr>
+                            <td></td>
+                            <td>size</td>
+                            <td>color</td>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select name="size" id="">
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="color" id="">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select name="size" id="">
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="color" id="">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="option-div" style="width: 400px;">
+                <div class="option" onclick="selectOption(this)">
+                    <div class="unit">
+                        <input type="radio" name="product" id="option2" checked>
+                        <label for="option2" class="option1">
+                            <h3>2 Unit</h3>
+                            <span class="discount">20% Off</span>
+                        </label>
+                    </div>
+                    <div class="price">$18.00 USD <span class="original-price">$24.00 USD</span></div>
+                </div>
+                <div class="details" style="display: block;">
+                    <table class="variant-table">
+                        <tr>
+                            <td></td>
+                            <td>size</td>
+                            <td>color</td>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select name="size" id="">
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="color" id="">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select name="size" id="">
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="color" id="">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="option-div">
+                <div class="option" onclick="selectOption(this)">
+                    <div class="unit">
+                        <input type="radio" name="product" id="option3">
+                        <label for="option3" class="option1">
+                            <h3>3 Unit</h3>
+                            <span class="discount">30% Off</span>
+                        </label>
+                    </div>
+                    <div class="price">$24.00 USD <span class="original-price">$24.00 USD</span></div>
+                </div>
+                <div class="details">
+                    <table class="variant-table">
+                        <tr>
+                            <td></td>
+                            <td>size</td>
+                            <td>color</td>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select name="size" id="">
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="color" id="">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select name="size" id="">
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select name="color" id="">
+                                    <option value="White">White</option>
+                                    <option value="Black">Black</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="amount-section">
+                <span class="delivery-text">Free Delivery</span>
+                <span>Total: $18.00 USD</span>
+            </div>
+            <div class="cart-btn">
+                <button>Add To Cart</button>
+            </div>
+        </div>
+        
+    </main>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>

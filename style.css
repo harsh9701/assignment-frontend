@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-div {
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.line-with-text::before,
+.line-with-text::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.text {
+    color: #ff6680;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.option-div {
+    border: 2px solid #aaa4a55e;
+    padding: 15px;
+    margin: 10px;
+}
+
+.option {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+
+.unit {
+    display: flex;
+}
+
+.option1 {
+    margin: 0 25px;
+    display: flex;
+    align-items: center;
+}
+
+.option1 h3 {
+    line-height: 0;
+}
+
+.discount {
+    margin: 0 10px;
+    background-color: #ff6680;
+    padding: 3px;
+    color: white;
+}
+
+.details {
+    padding: 10px;
+    display: none;
+}
+
+.variant-table td {
+    width: 20px;
+}
+
+.variant-table td select {
+    width: 80px;
+}
+
+.amount-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.delivery-text {
+    font-size: 1.2rem;
+    color: #ff6680;
+}
+
+.cart-btn {
+    padding: 15px;
+}
+
+.cart-btn button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #ff6680;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: 5px;
+}

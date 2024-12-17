@@ -74,6 +74,12 @@ body {
     color: white;
 }
 
+.original-price {
+    text-decoration: line-through;
+    color: #a3a0a0;
+    font-size: 0.9rem;
+}
+
 .details {
     padding: 10px;
     display: none;
